@@ -1,0 +1,68 @@
+*{
+	font-family: 'Ubuntu', sans-serif;
+	color:  #3F3F3F;
+}
+.container{
+	max-width: 1248px;
+}
+
+.left-side{
+	z-index: 1;
+}
+
+.left-side h6{
+	font-size: 1.2rem;
+}
+
+.custom-btn{
+	border: none;
+	background-image: url("../images/btn.png"), linear-gradient(to bottom right,#5967e9, #3847d0); 
+	background-size:  contain;
+	background-repeat: no-repeat;
+	/*background-color: #4156fc ; */
+	padding: 1.2em 2em;
+	border-radius: 5px;
+	color: #ffff;
+	/*font-size: 12px;*/
+	/*width: 200px!important;*/
+	box-shadow: 0px 5px 10px rgba(56, 71, 208, 0.25);
+}
+.custom-btn:hover{
+	background-image: url("../images/btn.png"), linear-gradient(to bottom right,#414dbb, #071383); 
+	box-shadow: 0px 5px 10px rgba(56, 71, 208, 0.25);
+}
+
+.get-started-form input, select{
+	box-shadow: 0px 5px 10px rgba(56, 71, 208, 0.25); 
+}
+
+
+@media only screen and (max-width: 768px) {
+	.zuri-design{
+		position: absolute;
+    bottom: 7em;
+    left: 5em;
+    z-index: 0;
+    width: 75%;
+	}
+	.left-side h1{
+		font-size: 1.9em;
+	}
+	.left-side h6{
+		font-size: 1.1rem;
+	}
+
+	.custom-btn{
+		border: none;
+		background-image: url("../images/btn.png"), linear-gradient(to bottom right,#5967e9, #3847d0); 
+		background-size:  100%;
+		background-repeat: no-repeat;
+		/*background-color: #4156fc ; */
+		padding: 1.2em 2em;
+		border-radius: 5px;
+		color: #ffff;
+		/*font-size: 12px;*/
+		width: 90%!important;
+		box-shadow: 0px 5px 10px rgba(56, 71, 208, 0.25);
+	}
+}
