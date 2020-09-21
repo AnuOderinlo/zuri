@@ -1,7 +1,13 @@
 *{
-	font-family: 'Ubuntu', sans-serif;
+	font-family: Ubuntu, sans-serif;
 	color:  #3F3F3F;
 }
+
+.primary-color{
+	color: #5B69EA
+}
+
+
 .container{
 	max-width: 1248px;
 }
@@ -30,12 +36,99 @@
 .custom-btn:hover{
 	background-image: url("../images/btn.png"), linear-gradient(to bottom right,#414dbb, #071383); 
 	box-shadow: 0px 5px 10px rgba(56, 71, 208, 0.25);
+	color: #ffff;
 }
 
 .get-started-form input, select{
 	box-shadow: 0px 5px 10px rgba(56, 71, 208, 0.25); 
 }
 
+.divider{
+	background-color: #5B69EA;
+	height: 2px;
+	width: 70%;
+}
+
+.custom-character{
+	color: #5B69EA;
+	font-size: 1.7em;
+}
+
+.custom-testimony{
+	background: #ffff;
+	box-shadow: 0px 5px 20px rgba(56, 71, 208, 0.15);
+	border-radius: 7px;
+	padding: 20px;
+	margin-bottom: 10px;
+}
+
+.custom-testimony-text {
+  quotes: "“" "”" "‘" "’";
+}
+
+.custom-testimony-text::before{
+	
+}
+
+.custom_font-size{
+	font-size: 6px;
+}
+
+.about-list{
+	padding-left: 16px!important;
+}
+.about-list li{
+	margin-bottom: 1.5em;
+}
+
+.custom-bg-image{
+	background-image: url("../images/custom-bg.png"); 
+	background-size: cover;
+	background-repeat: no-repeat;
+	border-radius: 10px;
+}
+
+.custom-section{
+	margin-top: 10em;
+}
+
+.custom-carousal-container{
+	background-color: #5B69EA;
+}
+
+.custom-grid-box {
+	background: #ffff;
+	box-shadow: 0px 5px 10px rgba(56, 71, 208, 0.25);
+	border-radius: 7px;
+	padding: 20px;
+	margin-bottom: 10px;
+	width: 37%;
+
+}
+
+.custom-float-box{
+	position: absolute;
+  top: -111px;
+  left: 396px;
+  z-index: 1;
+}
+.comment{
+	 /*z-index: 1;*/
+	 transition: transform 2s;
+	 /*transition: z-index 2s;*/
+}
+
+.comment:hover{
+	cursor: pointer;
+	transform: scale(1.5,1.5);
+	/*transform: ();*/
+	z-index: 4;
+}
+
+.footer-child{
+	padding: 90px;
+	background-color: #212121;
+}
 
 @media only screen and (max-width: 768px) {
 	.zuri-design{
