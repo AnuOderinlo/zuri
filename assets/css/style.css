@@ -207,6 +207,15 @@
 		width: 100px;
 	}
 
+	
+	.zuri-design{
+		position: absolute;
+    bottom: 7em;
+    left: 5em;
+    z-index: 0;
+    width: 75%;
+	}
+
   
 }
 
