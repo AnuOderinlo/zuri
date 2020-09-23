@@ -1,6 +1,25 @@
 *{
-	font-family: Ubuntu, sans-serif;
+	font-family: 'Source Sans Pro', sans-serif;
 	color:  #3F3F3F;
+	font-weight: 600;
+	font-size: 24px;
+}
+h1{
+	font-size: 40px;
+}
+h3{
+
+	font-size: 24px;
+}
+
+h5{
+	font-size: 21px;
+
+}
+
+h1,h2,h3,h4,h5,h5{
+	font-family: 'Ubuntu', sans-serif!important;
+	color:  #212121;
 }
 
 .primary-color{
@@ -9,7 +28,7 @@
 
 
 .container{
-	max-width: 1248px;
+	max-width: 90%;
 }
 
 .left-side{
@@ -26,7 +45,7 @@
 	background-size:  contain;
 	background-repeat: no-repeat;
 	/*background-color: #4156fc ; */
-	padding: 1.2em 2em;
+	padding: 1.2em 1em;
 	border-radius: 5px;
 	color: #ffff;
 	display: inline-block;
@@ -34,6 +53,7 @@
 	/*font-size: 12px;*/
 	width: 300px!important;
 	box-shadow: 0px 5px 10px rgba(56, 71, 208, 0.25);
+	font-weight: bold;
 }
 .custom-btn:hover{
 	background-image: url("../images/btn.png"), linear-gradient(to bottom right,#414dbb, #071383); 
@@ -66,6 +86,11 @@
 
 .custom-testimony-text {
   quotes: "“" "”" "‘" "’";
+	font-weight: 600;
+}
+
+.custom-testimony-text p{
+  font-size: 21px;
 }
 
 .custom-testimony-text::before{
@@ -108,6 +133,16 @@
 
 }
 
+.custom-grid-box-logo{
+	opacity: 0.4;
+	box-shadow: 0px 5px 1px rgba(56, 71, 208, 0.1);
+}
+
+.img-slider{
+	box-shadow: 0px 0px 30px 10px rgba(0, 0, 0, 0.2);
+	border-radius: 7px;
+}
+
 .custom-float-box{
 	position: absolute;
   top: -111px;
@@ -122,7 +157,7 @@
 
 .comment:hover{
 	cursor: pointer;
-	transform: scale(1.5,1.5);
+	transform: scale(1.1,1.1);
 	/*transform: ();*/
 	z-index: 4;
 }
@@ -136,6 +171,17 @@
 
 
 @media screen and (max-width: 576px) {
+	*{
+		font-size: 16px;
+	}
+	h1,h2,h3,h4,h5,h5{
+		font-family: 'Ubuntu', sans-serif!important;
+		color:  #212121;
+	}
+	.container{
+		max-width: 100%;
+	}
+
   body{
   	font-size: 12px;
   }
@@ -161,6 +207,9 @@
   	display: inline-block;
   	text-align: center;
   	background-size: 100%;
+  	font-weight: bold;
+  	padding: 1em 0.5em;
+  	font-size: 21px;
 
   }
 
@@ -170,6 +219,7 @@
 
   .custom-testimony{
   	padding: 7px;
+  	min-height: 120px;
   }
 
   .custom-bg-image{
@@ -222,6 +272,10 @@
 
 
 @media only screen and (min-width: 768px) {
+	h1,h2,h3,h4,h5,h5{
+		font-family: 'Ubuntu', sans-serif!important;
+		color:  #212121;
+	}
 	.zuri-design{
 		position: absolute;
     bottom: 7em;
@@ -242,12 +296,13 @@
 		background-size:  100%;
 		background-repeat: no-repeat;
 		/*background-color: #4156fc ; */
-		padding: 1.2em 2em;
+		padding: 1.2em 1em;
 		border-radius: 5px;
 		color: #ffff;
 		/*font-size: 12px;*/
 		/*width: 90%!important;*/
 		box-shadow: 0px 5px 10px rgba(56, 71, 208, 0.25);
+		font-weight: bold;
 	}
 
 
@@ -266,6 +321,10 @@
 }
 
 @media only screen and (max-width: 1024px) and (min-width: 768px){ 
+	h1,h2,h3,h4,h5,h5{
+		font-family: 'Ubuntu', sans-serif!important;
+		color:  #212121;
+	}
 
 }
 
