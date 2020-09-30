@@ -45,7 +45,7 @@ h1,h2,h3,h4,h5,h5{
 	background-size:  contain;
 	background-repeat: no-repeat;
 	/*background-color: #4156fc ; */
-	padding: 1.2em 1em;
+	padding: 0.9em 1.1em;
 	border-radius: 5px;
 	color: #ffff;
 	display: inline-block;
@@ -86,11 +86,12 @@ h1,h2,h3,h4,h5,h5{
 
 .custom-testimony-text {
   quotes: "“" "”" "‘" "’";
-	font-weight: 600;
+	font-weight:200;
 }
 
 .custom-testimony-text p{
   font-size: 21px;
+  margin-bottom: 0;
 }
 
 .custom-testimony-text::before{
@@ -296,7 +297,8 @@ h1,h2,h3,h4,h5,h5{
 		background-size:  100%;
 		background-repeat: no-repeat;
 		/*background-color: #4156fc ; */
-		padding: 1.2em 1em;
+		/*padding: 1.2em 1em;*/
+		padding: 0.9em 1.1em;
 		border-radius: 5px;
 		color: #ffff;
 		/*font-size: 12px;*/
